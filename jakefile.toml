@@ -1,0 +1,6 @@
+build = "cargo build"
+test = "echo 'No task yet for test'"
+clippy-fix = "cargo clippy --fix --bin 'sandboxed-lit' --allow-dirty"
+clippy = "cargo clippy"
+format = "cargo fmt"
+format-check = "cargo fmt --check"
