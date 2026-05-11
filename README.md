@@ -42,7 +42,7 @@ Options:
 Run with the current directory mounted:
 
 ```sh
-export ANTHROPIC_API_KEY=sk-ant-...
+export OPENAI_API_KEY=sk-...
 sandboxed-lit -p "Summarize every PDF in the working directory."
 ```
 
